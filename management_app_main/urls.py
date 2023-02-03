@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('index/', include('apps.index.urls')),
+    path('kanban_board/', include('apps.kanban_board.urls')),
     path('admin/', admin.site.urls),
 ]
