@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('secretKey')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dge99.pythonanywhere.com']
 
 
 # Application definition
